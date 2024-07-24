@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    color: #15163D;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient(circle at top left, #3957F1,white 15%);
+    background-repeat: no-repeat;
+}
+
+nav, header, section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.testimonios{
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-img{
+    width: 50%;
+    border: #15163D solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-img img{
+    width: 105%;
+}
+
+.card-nombre{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-testimonio{
+    line-height: 20.8px;
+}
+
+
+.item-card{
+    background-color: #EFF2FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 40px 60px;
+}
+
+.card-texto{
+    text-align: center;
+}
+
+
+nav, header, main{
+    width: 83.33%;
+    margin: auto;
+}
+
+nav{
+    padding: 40px 0px 80px 0px;
+}
+
+section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+.texto{
+    width:40%;
+}
+
+.imagen{
+    width:50%;
+}
+
+.imagen img{
+    width: 100%;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27.5px;
+    margin-bottom: 40px;
+}
+
+.info-footer{
+    display: flex;
+    color: white;
+    gap:130px;
+}
+
+footer{
+    background-color: #15163D;
+    padding: 50px 100px 20px;
+    width: 100%;
+}
+footer p{
+   color: white;   
+   margin-bottom: 20px;
+   font-weight: 700;
+   font-size: 18px;
+}
+
+footer ul li{
+    list-style: none;
+    color: white;
+    gap: 10px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer ul li{
+    list-style: none;
+    color:white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.derecho p{
+    text-align: center;
+    font-weight: 300;
+    margin: 50px 0 0 0;
+    font-size: 16px;
+}
+
+button{
+    background-color: #04146C;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
+    border:none;
+    padding:0px 30px;
+    height: 48px;
+    cursor: pointer;
+}
